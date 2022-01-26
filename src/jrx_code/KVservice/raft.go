@@ -13,7 +13,7 @@ import (
 //定义常量3
 const raftCount = 3
 
-//声明leader对象
+//leader
 type Leader struct {
 	//任期
 	Term int
